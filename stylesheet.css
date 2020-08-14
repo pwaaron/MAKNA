@@ -1,0 +1,117 @@
+@font-face {
+    font-family: fjalla_oneregular;
+    src: url('fonts/fjallaone-regular-webfont.ttf');
+	font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: source_sans_proregular;
+    src: url('fonts/sourcesanspro-regular-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+font b{
+	text-decoration:blink;
+}
+
+body{background:#ffffff;}
+h1, h2, h3, h4, h5, h6{margin: 0;font-family: fjalla_oneregular; color: black;  text-transform: uppercase; padding-bottom: 15px;}
+h1{ font-size: 40px; text-align:center;}
+h2{ font-size: 30px;}
+h3{ font-size: 18px;}
+h4{ font-size: 16px;}
+h5{ font-size: 14px;}
+h6{ font-size: 12px;}
+html{ font-size: 14px; font-family: source_sans_proregular; color: #5c5c5c; margin-right:0; margin-bottom: 15px; line-height: 24px;}
+
+table{
+	width:80%;
+}	
+
+td table{
+	width:100%;
+}
+
+td a{
+	text-decoration:none;
+	color:gainsboro;
+}
+
+td a:hover{
+	color:white;
+}
+	
+.main-menu{
+	font-size: 20px;
+	font-weight: normal;
+	font-family: fjalla_oneregular;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:none;
+	height:60px;
+	background-color:#a5a5a5;
+	color:black
+	}
+
+
+.main-menu:hover{
+	font-size: 20px;
+	font-weight: normal;
+	font-family: fjalla_oneregular;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:none;
+	height:60px;
+	transition:all 1s;
+	background-color:#5c5c5c;
+	color:white;
+}
+.main-menu-active{
+	font-size: 20px;
+	font-weight: normal;
+	font-family: fjalla_oneregular;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:none;
+	height:60px;
+	transition:all 1s;
+	background-color:maroon;
+	color:white;
+}
+
+.gambar-resep{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: fjalla_oneregular;
+	text-decoration:none;
+	height:120px;
+	width:30%;
+}
+
+.daftar-resep{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: fjalla_oneregular;
+	text-decoration:none;
+	height:120px;
+	width:70%;
+}
+
+.daftar-resep:hover{
+	font-size: 40px;
+	font-weight: normal;
+	font-family: fjalla_oneregular;
+	text-decoration:none;
+	height:160px;
+	width:60%;
+	transition:all 1s;
+	background-color:#5c5c5c;
+	color:white;
+}
+
+.special-hyperlink{
+	color:#a5a5a5;
+}
